@@ -7,15 +7,17 @@ interface NavLinkProps {
   href: string;
   title: string;
   className?: string;
+  onClick?: () => void;
 }
 
-const NavLink = ({ href, title, className }: NavLinkProps) => (
+const NavLink = ({ href, title, className, onClick }: NavLinkProps) => (
   <a
     href={href}
     className={cn(
       "text-gray-300 hover:text-primary-purple transition-colors duration-300",
       className
     )}
+    onClick={onClick}
   >
     {title}
   </a>

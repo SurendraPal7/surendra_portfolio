@@ -1,6 +1,7 @@
 
 import { ArrowDownCircle, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Avatar } from "@/components/ui/avatar";
 
 const HeroSection = () => {
   return (
@@ -11,60 +12,77 @@ const HeroSection = () => {
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col items-center justify-center text-center">
-          <h1 className="text-2xl mb-2 text-primary-purple animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Hello, I'm
-          </h1>
-          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Ashish Raj
-          </h2>
-          <h3 className="text-xl md:text-2xl font-medium text-gray-300 mb-8 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            Data Science Engineer
-          </h3>
-          
-          <div className="flex gap-4 mb-8 animate-fade-in" style={{ animationDelay: '0.8s' }}>
-            <a 
-              href="https://linkedin.com/in/aashishraj/" 
-              target="_blank"
-              rel="noopener noreferrer" 
-              aria-label="LinkedIn"
-              className="bg-secondary p-3 rounded-full hover:bg-primary-purple transition-colors duration-300"
-            >
-              <Linkedin size={20} />
-            </a>
-            <a 
-              href="https://github.com/Ashish1379" 
-              target="_blank"
-              rel="noopener noreferrer" 
-              aria-label="GitHub"
-              className="bg-secondary p-3 rounded-full hover:bg-primary-purple transition-colors duration-300"
-            >
-              <Github size={20} />
-            </a>
-            <a 
-              href="mailto:ashishrajbarmawal23@gmail.com" 
-              aria-label="Email"
-              className="bg-secondary p-3 rounded-full hover:bg-primary-purple transition-colors duration-300"
-            >
-              <Mail size={20} />
-            </a>
-          </div>
-          
-          <div className="flex gap-4 animate-fade-in" style={{ animationDelay: '1s' }}>
-            <Button className="btn-primary flex items-center gap-2" asChild>
-              <a href="#contact">
-                Contact Me
-              </a>
-            </Button>
-            <Button variant="outline" asChild>
+        <div className="flex flex-col lg:flex-row gap-12 items-center justify-between">
+          {/* Left side - Text Content */}
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:w-1/2">
+            <h1 className="text-2xl mb-2 text-primary-purple animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              Hello, I'm
+            </h1>
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+              Ashish Raj
+            </h2>
+            <h3 className="text-xl md:text-2xl font-medium text-gray-300 mb-8 animate-fade-in" style={{ animationDelay: '0.6s' }}>
+              Data Science Engineer
+            </h3>
+            
+            <div className="flex gap-4 mb-8 animate-fade-in" style={{ animationDelay: '0.8s' }}>
               <a 
-                href="/resume.pdf" 
-                download="Ashish_Raj_Resume.pdf"
-                className="flex items-center gap-2"
+                href="https://www.linkedin.com/in/9ashishraj/" 
+                target="_blank"
+                rel="noopener noreferrer" 
+                aria-label="LinkedIn"
+                className="bg-secondary p-3 rounded-full hover:bg-primary-purple transition-colors duration-300"
               >
-                Download CV
+                <Linkedin size={20} />
               </a>
-            </Button>
+              <a 
+                href="https://github.com/Ashish1379" 
+                target="_blank"
+                rel="noopener noreferrer" 
+                aria-label="GitHub"
+                className="bg-secondary p-3 rounded-full hover:bg-primary-purple transition-colors duration-300"
+              >
+                <Github size={20} />
+              </a>
+              <a 
+                href="mailto:ashishrajbarmawal23@gmail.com" 
+                aria-label="Email"
+                className="bg-secondary p-3 rounded-full hover:bg-primary-purple transition-colors duration-300"
+              >
+                <Mail size={20} />
+              </a>
+            </div>
+            
+            <div className="flex gap-4 animate-fade-in" style={{ animationDelay: '1s' }}>
+              <Button className="btn-primary flex items-center gap-2" asChild>
+                <a href="#contact">
+                  Contact Me
+                </a>
+              </Button>
+              <Button variant="outline" asChild>
+                <a 
+                  href="/resume.pdf" 
+                  download="Ashish_Raj_Resume.pdf"
+                  className="flex items-center gap-2"
+                >
+                  Download CV
+                </a>
+              </Button>
+            </div>
+          </div>
+
+          {/* Right side - Profile Image */}
+          <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in" style={{ animationDelay: '0.6s' }}>
+            <div className="relative">
+              <div className="absolute -inset-1 bg-primary-purple/30 rounded-full blur-md"></div>
+              <div className="relative h-64 w-64 md:h-80 md:w-80 overflow-hidden rounded-full border-4 border-primary-purple/50">
+                <img 
+                  src="/lovable-uploads/6b9499a3-81c3-44f2-9a42-77b17c7dd6b3.png" 
+                  alt="Ashish Raj" 
+                  className="object-cover w-full h-full"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

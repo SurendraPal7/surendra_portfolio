@@ -1,5 +1,5 @@
 
-import { Calendar, GraduationCap, Award } from "lucide-react";
+import { Calendar, GraduationCap, Award, ExternalLink } from "lucide-react";
 
 interface EducationItem {
   institution: string;
@@ -14,6 +14,8 @@ interface CertificateItem {
   title: string;
   issuer: string;
   date: string;
+  logo: string;
+  url: string;
 }
 
 const EducationSection = () => {
@@ -45,22 +47,30 @@ const EducationSection = () => {
     {
       title: "Software Testing | NPTEL",
       issuer: "NPTEL",
-      date: "October 2024"
+      date: "October 2024",
+      logo: "https://www.nptel.ac.in/sites/default/files/NPTEL-logo.jpg",
+      url: "https://www.google.com"
     },
     {
       title: "Data Analysis with Tableau",
       issuer: "Coursera",
-      date: "November 2024"
+      date: "November 2024",
+      logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png",
+      url: "https://www.google.com"
     },
     {
       title: "Approximation Algorithms and Linear Programming",
       issuer: "Coursera",
-      date: "April 2024"
+      date: "April 2024",
+      logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png",
+      url: "https://www.google.com"
     },
     {
       title: "Gen-AI for everyone",
       issuer: "Coursera",
-      date: "February 2024"
+      date: "February 2024",
+      logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png",
+      url: "https://www.google.com"
     }
   ];
 
@@ -122,11 +132,37 @@ const EducationSection = () => {
                   className="bg-secondary/30 border border-secondary/50 p-6 rounded-lg animated-card animate-fade-up"
                   style={{ animationDelay: `${index * 0.2}s` }}
                 >
-                  <h4 className="text-lg font-medium text-white mb-2">{cert.title}</h4>
-                  <p className="text-gray-300 mb-1">Issuer: {cert.issuer}</p>
-                  <div className="flex items-center text-gray-400">
-                    <Calendar size={16} className="mr-2" />
-                    <span>{cert.date}</span>
+                  <div className="flex items-start gap-4">
+                    <a 
+                      href={cert.url}
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex-shrink-0 bg-white p-1 rounded-md hover:opacity-80 transition-opacity"
+                    >
+                      <img 
+                        src={cert.logo} 
+                        alt={cert.issuer}
+                        className="w-12 h-12 object-contain"
+                      />
+                    </a>
+                    <div className="flex-1">
+                      <div className="flex items-center justify-between">
+                        <h4 className="text-lg font-medium text-white mb-2">{cert.title}</h4>
+                        <a 
+                          href={cert.url}
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-primary-purple hover:text-primary-purple/80 transition-colors"
+                        >
+                          <ExternalLink size={16} />
+                        </a>
+                      </div>
+                      <p className="text-gray-300 mb-1">Issuer: {cert.issuer}</p>
+                      <div className="flex items-center text-gray-400">
+                        <Calendar size={16} className="mr-2" />
+                        <span>{cert.date}</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}

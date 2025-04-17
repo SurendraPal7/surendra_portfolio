@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="https://linkedin.com/in/aashishraj/" 
+              href="https://www.linkedin.com/in/9ashishraj/" 
               target="_blank"
               rel="noopener noreferrer" 
               aria-label="LinkedIn"
