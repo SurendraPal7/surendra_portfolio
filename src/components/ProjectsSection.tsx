@@ -9,6 +9,8 @@ interface Project {
   duration: string;
   tech: string[];
   details: string[];
+  githubLink?: string;
+  projectLink?: string;
 }
 
 const ProjectsSection = () => {
@@ -22,7 +24,9 @@ const ProjectsSection = () => {
         "Developed an interactive Tableau dashboard to analyze EV adoption trends across the U.S.",
         "Visualized key insights on charging infrastructure.",
         "Regional growth, and consumer preferences using Dynamic visualizations and calculated metrics."
-      ]
+      ],
+      githubLink: "https://github.com/9ashishraj/EV-Data-Analysis",
+      projectLink: "#"
     },
     {
       title: "Toll Management System",
@@ -33,7 +37,9 @@ const ProjectsSection = () => {
         "Developed a Toll Management system using CPP language and concepts of Data Structures.",
         "Keep track of the vehicle's movement, record the time and the details like Owner's name, date of registration, vehicle model.",
         "The system made is user friendly and efficient in vehicle tracking, time management can also be used for automation of Toll gate."
-      ]
+      ],
+      githubLink: "https://github.com/9ashishraj/Toll-Management-System",
+      projectLink: "#"
     }
   ];
 
@@ -72,20 +78,28 @@ const ProjectsSection = () => {
                   </ul>
                   
                   <div className="flex gap-4">
-                    <a 
-                      href="#" 
-                      className="flex items-center text-primary-purple hover:text-primary-purple/80 transition-colors"
-                    >
-                      <Github size={18} className="mr-1" />
-                      <span>Code</span>
-                    </a>
-                    <a 
-                      href="#" 
-                      className="flex items-center text-primary-purple hover:text-primary-purple/80 transition-colors"
-                    >
-                      <ExternalLink size={18} className="mr-1" />
-                      <span>View Project</span>
-                    </a>
+                    {project.githubLink && (
+                      <a 
+                        href={project.githubLink} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center text-primary-purple hover:text-primary-purple/80 transition-colors"
+                      >
+                        <Github size={18} className="mr-1" />
+                        <span>Code</span>
+                      </a>
+                    )}
+                    {project.projectLink && (
+                      <a 
+                        href={project.projectLink} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center text-primary-purple hover:text-primary-purple/80 transition-colors"
+                      >
+                        <ExternalLink size={18} className="mr-1" />
+                        <span>View Project</span>
+                      </a>
+                    )}
                   </div>
                 </div>
               </CardContent>
