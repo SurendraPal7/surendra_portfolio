@@ -13,7 +13,7 @@ const AboutSection = () => {
               I'm Ashish Raj, a passionate Data Science Engineer with a strong foundation in computer science fundamentals and multiple programming languages including C, C++, Java, JavaScript, and R.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              With a Bachelor's degree in Computer Science and Engineering from Lovely Professional University, I specialize in solving complex problems through data analysis, algorithm development, and software engineering principles.
+              pursuing a Bachelor's degree in Computer Science and Engineering from Lovely Professional University, I specialize in solving complex problems through data analysis, algorithm development, and software engineering principles.
             </p>
             <p className="text-gray-300 leading-relaxed">
               My experience includes developing interactive dashboards, data analysis systems, and implementing algorithms to extract meaningful insights from data. I'm constantly exploring new technologies and methodologies to enhance my skills.
