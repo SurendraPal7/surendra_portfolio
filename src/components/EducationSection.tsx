@@ -48,7 +48,7 @@ const EducationSection = () => {
       issuer: "NPTEL",
       date: "October 2024",
       logo: "https://www.nptel.ac.in/sites/default/files/NPTEL-logo.jpg",
-      url: "https://drive.google.com/drive/folders/1REMJWmtq-1xJxaHYpOjs9Ejj08IAmUyo"
+      url: "https://drive.google.com/file/d/1k5iHBvYzYPwUPHFqDXrJfE3WgptKaamj/view?usp=drive_link"
     },
     {
       title: "Data Analysis with Tableau",
@@ -69,7 +69,7 @@ const EducationSection = () => {
       issuer: "Coursera",
       date: "February 2024",
       logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png",
-      url: "https://www.google.com"
+      url: "https://coursera.org/share/4d5b73469355a4abdffd0717d3058ca4"
     }
   ];
 
