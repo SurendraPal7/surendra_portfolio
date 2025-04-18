@@ -1,4 +1,3 @@
-
 import { Calendar, GraduationCap, Award, ExternalLink } from "lucide-react";
 
 interface EducationItem {
@@ -49,7 +48,7 @@ const EducationSection = () => {
       issuer: "NPTEL",
       date: "October 2024",
       logo: "https://www.nptel.ac.in/sites/default/files/NPTEL-logo.jpg",
-      url: "https://www.google.com"
+      url: "https://drive.google.com/drive/folders/1REMJWmtq-1xJxaHYpOjs9Ejj08IAmUyo"
     },
     {
       title: "Data Analysis with Tableau",

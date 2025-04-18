@@ -1,4 +1,3 @@
-
 import { ArrowDownCircle, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar } from "@/components/ui/avatar";
@@ -61,8 +60,9 @@ const HeroSection = () => {
               </Button>
               <Button variant="outline" asChild>
                 <a 
-                  href="/resume.pdf" 
-                  download="Ashish_Raj_Resume.pdf"
+                  href="https://drive.google.com/file/d/1AXLg9yNy0xwWIUNgYfE7kyNMkfEUUT8W/view" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
                   Download CV

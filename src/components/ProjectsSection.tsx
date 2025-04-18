@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -38,7 +37,7 @@ const ProjectsSection = () => {
         "Keep track of the vehicle's movement, record the time and the details like Owner's name, date of registration, vehicle model.",
         "The system made is user friendly and efficient in vehicle tracking, time management can also be used for automation of Toll gate."
       ],
-      githubLink: "https://github.com/9ashishraj/Toll-Management-System",
+      githubLink: "https://github.com/Ashish1379/TOLL-MANAGEMENT/blob/main/project_code.c",
       projectLink: "#"
     }
   ];
