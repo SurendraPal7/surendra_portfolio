@@ -18,15 +18,15 @@ const HeroSection = () => {
               Hello, I'm
             </h1>
             <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              Ashish Raj
+              Surendra Pal
             </h2>
             <h3 className="text-xl md:text-2xl font-medium text-gray-300 mb-8 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              Data Science Engineer
+              MERN Stack Developer 
             </h3>
             
             <div className="flex gap-4 mb-8 animate-fade-in" style={{ animationDelay: '0.8s' }}>
               <a 
-                href="https://www.linkedin.com/in/9ashishraj/" 
+                href="https://www.linkedin.com/in/surendra-pal-/" 
                 target="_blank"
                 rel="noopener noreferrer" 
                 aria-label="LinkedIn"
@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://github.com/Ashish1379" 
+                href="https://github.com/SurendraPal7" 
                 target="_blank"
                 rel="noopener noreferrer" 
                 aria-label="GitHub"
@@ -44,7 +44,7 @@ const HeroSection = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="mailto:ashishrajbarmawal23@gmail.com" 
+                href="mailto:ramanpal7228@gmail.com" 
                 aria-label="Email"
                 className="bg-secondary p-3 rounded-full hover:bg-primary-purple transition-colors duration-300"
               >
@@ -60,7 +60,7 @@ const HeroSection = () => {
               </Button>
               <Button variant="outline" asChild>
                 <a 
-                  href="https://drive.google.com/file/d/1AXLg9yNy0xwWIUNgYfE7kyNMkfEUUT8W/view" 
+                  href="https://drive.google.com/file/d/1MUcz7ltsPo5Tk63LFqXU8BAGiVpS2yDv/view?usp=drive_link" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
@@ -77,8 +77,8 @@ const HeroSection = () => {
               <div className="absolute -inset-1 bg-primary-purple/30 rounded-full blur-md"></div>
               <div className="relative h-64 w-64 md:h-80 md:w-80 overflow-hidden rounded-full border-4 border-primary-purple/50">
                 <img 
-                  src="/lovable-uploads/6b9499a3-81c3-44f2-9a42-77b17c7dd6b3.png" 
-                  alt="Ashish Raj" 
+                  src="/lovable-uploads/6b9499a3-81c3-44f2-9a42-77b17c7dd6b3.jpg" 
+                  alt="Surendra Pal" 
                   className="object-cover w-full h-full"
                 />
               </div>

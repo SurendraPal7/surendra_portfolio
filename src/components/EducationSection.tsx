@@ -24,52 +24,52 @@ const EducationSection = () => {
       degree: "Bachelor of Technology - Computer Science and Engineering",
       duration: "Since August 2022",
       location: "Punjab, India",
-      grade: "CGPA: 8.3"
+      grade: "CGPA: 7.58"
     },
     {
-      institution: "Chauhan Public School",
+      institution: "B.S.N.V. Inter College",
       degree: "Intermediate",
-      duration: "April 2021 - March 2022",
-      location: "BhagalPur, Bihar",
-      percentage: "Percentage: 75.2"
+      duration: "April 2019 - March 2021",
+      location: "Lucknow, Uttar Pradesh",
+      percentage: "Percentage: 72.4"
     },
     {
-      institution: "DAV Public School",
+      institution: "B.S.N.V. Inter College",
       degree: "Matriculation",
-      duration: "April 2019 - March 2020",
-      location: "MathuraPur, Bihar",
-      percentage: "Percentage: 91.8"
+      duration: "April 2017 - March 2019",
+      location: "Lucknow, Uttar Pradesh",
+      percentage: "Percentage: 81.8"
     }
   ];
 
   const certificates: CertificateItem[] = [
     {
-      title: "Software Testing | NPTEL",
+      title: "Introduction to  Machine Learning | NPTEL",
       issuer: "NPTEL",
       date: "October 2024",
-      logo: "https://www.nptel.ac.in/sites/default/files/NPTEL-logo.jpg",
-      url: "https://drive.google.com/file/d/1k5iHBvYzYPwUPHFqDXrJfE3WgptKaamj/view?usp=drive_link"
+      logo: "https://sangamuniversity.ac.in/wp-content/uploads/2023/03/nptel.jpg",
+      url: "https://drive.google.com/file/d/1LCulxJlHEJyC3C3iiDhURLLH-HVDgugs/view?usp=drive_link"
     },
     {
-      title: "Data Analysis with Tableau",
+      title: "Server side JavaScript with Node.js",
       issuer: "Coursera",
       date: "November 2024",
       logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png",
-      url: "https://www.google.com"
+      url: "https://coursera.org/share/3a5d8abff2b87d3797d682d6c706de8d"
     },
     {
       title: "Approximation Algorithms and Linear Programming",
       issuer: "Coursera",
       date: "April 2024",
       logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png",
-      url: "https://www.google.com"
+      url: "https://coursera.org/share/85eb275a416b1c011383d3f224c2b5db"
     },
     {
       title: "Gen-AI for everyone",
       issuer: "Coursera",
       date: "February 2024",
       logo: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png",
-      url: "https://coursera.org/share/4d5b73469355a4abdffd0717d3058ca4"
+      url: "https://coursera.org/share/28d5deb3e7c14442875e0b4cd703e5c0"
     }
   ];
 
@@ -180,12 +180,14 @@ const EducationSection = () => {
                   <p className="text-gray-400">Including the questions: Easy - 49, Medium - 47, Hard - 4</p>
                 </li>
                 <li>
-                  <span className="font-medium text-white">Solved 50+ On Geeks For Geeks Platform:</span>
-                  <p className="text-gray-400">Having coding score of 150+ on GFG</p>
+                  <span className="font-medium text-white">Contributed to Google Adversarial Nibbler Project:</span>
+                  <p className="text-gray-400">Contributed to AI and Prompt Engineering by crafting over 100 implicit prompts for text-to-image generation 
+in a project at Lovely Professional University, enhancing image quality and accuracy</p>
                 </li>
                 <li>
-                  <span className="font-medium text-white">Volunteered in ICCS 2023:</span>
-                  <p className="text-gray-400">Participated and volunteered in 8th International Conference on Computing Sciences in 2023</p>
+                  <span className="font-medium text-white">Secured 3rd Prize in Theatre Inter-School Competition:</span>
+                  <p className="text-gray-400">Secured 3rd place in a theatre competition at the inter-school level, demonstrating creativity,
+teamwork, and stage performance skills</p>
                 </li>
               </ul>
             </div>

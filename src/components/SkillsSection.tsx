@@ -1,5 +1,7 @@
 
 import { Card } from "@/components/ui/card";
+import { SendHorizontal } from "lucide-react";
+
 import { 
   Code2, 
   FileCode, 
@@ -8,7 +10,9 @@ import {
   LineChart, 
   Brain, 
   Blocks, 
-  Users
+  Users,
+  GitBranch,
+  PenTool
 } from "lucide-react";
 
 interface Skill {
@@ -33,7 +37,6 @@ const SkillsSection = () => {
         { name: "Java", icon: <FileCode size={20} /> },
         { name: "JavaScript", icon: <span className="text-lg font-bold">JS</span> },
         { name: "HTML", icon: <span className="text-lg font-bold">HTML</span> },
-        { name: "R", icon: <span className="text-lg font-bold">R</span> }
       ]
     },
     {
@@ -41,7 +44,9 @@ const SkillsSection = () => {
       icon: <Blocks size={24} className="text-primary-purple" />,
       skills: [
         { name: "CSS", icon: <span className="text-lg font-bold">CSS</span> },
-        { name: "React", icon: <MonitorSmartphone size={20} /> }
+        { name: "React", icon: <MonitorSmartphone size={20} /> },
+        { name: "Node", icon: <MonitorSmartphone size={20} /> }
+
       ]
     },
     {
@@ -49,10 +54,12 @@ const SkillsSection = () => {
       icon: <Database size={24} className="text-primary-purple" />,
       skills: [
         { name: "MySQL", icon: <Database size={20} /> },
-        { name: "Tableau", icon: <LineChart size={20} /> },
-        { name: "Alteryx Studio", icon: <Blocks size={20} /> },
-        { name: "Oracle-DB", icon: <Database size={20} /> },
-        { name: "Informatica", icon: <FileCode size={20} /> }
+        { name: "Git", icon: <GitBranch size={20} /> },
+          { name: "VS Code", icon: <Blocks size={20} /> },
+  { name: "MongoDB", icon: <Database size={20} /> },
+{ name: "Postman", icon: <SendHorizontal size={20} /> },
+ { name: "Figma", icon: <PenTool size={20} /> }
+
       ]
     },
     {
@@ -107,11 +114,11 @@ const SkillsSection = () => {
           <div className="space-y-6">
             <div>
               <div className="flex justify-between mb-2">
-                <span className="text-gray-300">Data Analysis</span>
-                <span className="text-primary-purple">90%</span>
+                <span className="text-gray-300">Frontend Developer</span>
+                <span className="text-primary-purple">80%</span>
               </div>
               <div className="h-2 bg-secondary/50 rounded-full overflow-hidden">
-                <div className="h-full bg-primary-purple rounded-full" style={{ width: "90%" }}></div>
+                <div className="h-full bg-primary-purple rounded-full" style={{ width: "80%" }}></div>
               </div>
             </div>
             
@@ -128,20 +135,20 @@ const SkillsSection = () => {
             <div>
               <div className="flex justify-between mb-2">
                 <span className="text-gray-300">Database Management</span>
-                <span className="text-primary-purple">80%</span>
+                <span className="text-primary-purple">70%</span>
               </div>
               <div className="h-2 bg-secondary/50 rounded-full overflow-hidden">
-                <div className="h-full bg-primary-purple rounded-full" style={{ width: "80%" }}></div>
+                <div className="h-full bg-primary-purple rounded-full" style={{ width: "70%" }}></div>
               </div>
             </div>
             
             <div>
               <div className="flex justify-between mb-2">
-                <span className="text-gray-300">Data Visualization</span>
-                <span className="text-primary-purple">95%</span>
+                <span className="text-gray-300">Backend Developer</span>
+                <span className="text-primary-purple">75%</span>
               </div>
               <div className="h-2 bg-secondary/50 rounded-full overflow-hidden">
-                <div className="h-full bg-primary-purple rounded-full" style={{ width: "95%" }}></div>
+                <div className="h-full bg-primary-purple rounded-full" style={{ width: "75%" }}></div>
               </div>
             </div>
           </div>

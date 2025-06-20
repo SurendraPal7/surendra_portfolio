@@ -66,8 +66,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Mail</p>
-                  <a href="mailto:ashishrajbarmawal23@gmail.com" className="text-white hover:text-primary-purple transition-colors">
-                    ashishrajbarmawal23@gmail.com
+                  <a href="mailto:ramanpal7228@gmail.com" className="text-white hover:text-primary-purple transition-colors">
+                    ramanpal7228@gmail.com
                   </a>
                 </div>
               </div>
@@ -78,8 +78,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Phone</p>
-                  <a href="tel:+919572658516" className="text-white hover:text-primary-purple transition-colors">
-                    +91 9572658516
+                  <a href="tel:+919793779737" className="text-white hover:text-primary-purple transition-colors">
+                    +91 9793779737
                   </a>
                 </div>
               </div>
@@ -91,12 +91,13 @@ const ContactSection = () => {
                 <div>
                   <p className="text-gray-400 text-sm">LinkedIn</p>
                   <a 
-                    href="https://linkedin.com/in/aashishraj/" 
+                    href="https://www.linkedin.com/in/surendra-pal-/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-primary-purple transition-colors"
                   >
-                    linkedin.com/in/aashishraj/
+                  linkedin.com/in/surendra-pal-/
+
                   </a>
                 </div>
               </div>
@@ -108,12 +109,12 @@ const ContactSection = () => {
                 <div>
                   <p className="text-gray-400 text-sm">GitHub</p>
                   <a 
-                    href="https://github.com/Ashish1379" 
+                    href="https://github.com/SurendraPal7" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-primary-purple transition-colors"
                   >
-                    github.com/Ashish1379
+                    github.com/SurendraPal7
                   </a>
                 </div>
               </div>
