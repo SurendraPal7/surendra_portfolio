@@ -15,6 +15,23 @@ interface Project {
 const ProjectsSection = () => {
   const projects: Project[] = [
     {
+      title: "Bean&Beyond - Cafe Website",
+      description:
+        "A full-stack Cafe Management System designed to streamline cafe operations by enabling efficient menu management, order processing, and billing through a clean and user-friendly interface. The system focuses on performance, scalability, and smooth user experience.",
+      duration: "July 2025",
+      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
+      details: [
+        "Developed a responsive and interactive frontend using React.js with efficient state management for real-time order updates.",
+        "Built RESTful APIs using Node.js and Express.js to handle menu, orders, and billing operations.",
+        "Integrated MongoDB for secure and scalable storage of menu items and order data.",
+        "Implemented optimized component rendering and structured data flow to improve overall performance.",
+        "Followed a structured SDLC approach, including requirement analysis, development, testing, and iterative improvements.",
+      ],
+      githubLink:
+        "https://github.com/SurendraPal7/cafe_frontend",
+      projectLink: "https://cafe-frontend-peach.vercel.app/",
+    },
+    {
       title: "ExploreVista - Travel and Tourism Website",
       description:
         "ExploreVista is a user-friendly travel and tourism website designed to help users discover destinations, plan trips, and explore travel experiences with ease.",

@@ -60,7 +60,7 @@ const HeroSection = () => {
               </Button>
               <Button variant="outline" asChild>
                 <a 
-                  href="https://drive.google.com/file/d/1MUcz7ltsPo5Tk63LFqXU8BAGiVpS2yDv/view?usp=drive_link" 
+                  href="https://drive.google.com/file/d/1YWVSmSFlcG72SRCiltPG5BceeYMJSnw1/view?usp=sharing" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
