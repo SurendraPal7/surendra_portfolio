@@ -24,7 +24,7 @@ const EducationSection = () => {
       degree: "Bachelor of Technology - Computer Science and Engineering",
       duration: "Since August 2022",
       location: "Punjab, India",
-      grade: "CGPA: 7.58"
+      grade: "CGPA: 7.76"
     },
     {
       institution: "B.S.N.V. Inter College",

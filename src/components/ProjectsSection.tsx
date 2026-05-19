@@ -15,6 +15,25 @@ interface Project {
 const ProjectsSection = () => {
   const projects: Project[] = [
     {
+      title: "BloodLink - Real-Time Emergency Blood Network",
+      description:
+      "A real-time emergency blood donation platform designed to connect donors, hospitals, and patients efficiently during critical situations. The system focuses on fast communication, secure data handling, location-based donor matching, and a seamless user experience.",
+      duration: "March 2026",
+      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS","Twilio API"],
+      details: [
+       "Developed a responsive and interactive frontend using React.js with efficient state management for real-time donor and request updates.",
+"Built RESTful APIs using Node.js and Express.js to manage blood requests, donor registrations, hospital verification, and emergency notifications.",
+"Integrated MongoDB for secure and scalable storage of donor profiles, blood requests, hospital data, and availability status.",
+"Implemented location-based donor matching and instant alert features to improve emergency response time.",
+"Integrated Twilio API for sending real-time SMS/WhatsApp notifications to donors during emergency blood requests.",
+"Optimized application performance through reusable components, structured data flow, and efficient backend operations.",
+"Followed a structured SDLC approach, including requirement analysis, development, testing, deployment, and iterative improvements.",
+      ],
+      githubLink:
+        "https://github.com/SurendraPal7/Blood-Donor",
+      
+    },
+    {
       title: "Bean&Beyond - Cafe Website",
       description:
         "A full-stack Cafe Management System designed to streamline cafe operations by enabling efficient menu management, order processing, and billing through a clean and user-friendly interface. The system focuses on performance, scalability, and smooth user experience.",
@@ -46,22 +65,6 @@ const ProjectsSection = () => {
       githubLink:
         "https://github.com/SurendraPal7/Travel-and-Tourism-App-using-React-js",
       projectLink: "https://explorevista.vercel.app/",
-    },
-    {
-      title: "Library Management System",
-      description:
-        "CPP-based system for managing and tracking library book records",
-      duration: "May 2024 - June 2024",
-      tech: ["C++", "DSA"],
-      details: [
-        "Developed a console-based Library Management System using C++ and data structures.",
-        "Implemented features like adding, deleting, issuing, and returning books, along with search functionality by ID or title.",
-        "Enabled sorting of records, tracking availability status, and maintaining borrower details.",
-        "Designed to be efficient, user-friendly, and suitable for small to medium-scale libraries.",
-      ],
-      githubLink:
-        "https://github.com/SurendraPal7/Library-Management-System-LMS-",
-      projectLink: "#",
     },
     {
       title: "🗑 Waste Management System – UI/UX Design",

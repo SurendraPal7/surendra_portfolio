@@ -45,7 +45,8 @@ const SkillsSection = () => {
       skills: [
         { name: "CSS", icon: <span className="text-lg font-bold">CSS</span> },
         { name: "React", icon: <MonitorSmartphone size={20} /> },
-        { name: "Node", icon: <MonitorSmartphone size={20} /> }
+        { name: "Node", icon: <MonitorSmartphone size={20} /> },
+         { name: "Express", icon: <MonitorSmartphone size={20} /> }
 
       ]
     },
@@ -145,10 +146,10 @@ const SkillsSection = () => {
             <div>
               <div className="flex justify-between mb-2">
                 <span className="text-gray-300">Backend Developer</span>
-                <span className="text-primary-purple">75%</span>
+                <span className="text-primary-purple">85%</span>
               </div>
               <div className="h-2 bg-secondary/50 rounded-full overflow-hidden">
-                <div className="h-full bg-primary-purple rounded-full" style={{ width: "75%" }}></div>
+                <div className="h-full bg-primary-purple rounded-full" style={{ width: "85%" }}></div>
               </div>
             </div>
           </div>
